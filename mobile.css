@@ -1,0 +1,17 @@
+/* ---------------
+    responsive 
+------------------*/
+/* Mobile Device */
+@media only screen and (max-width: 700px) {
+  .main {
+    display: block;
+    visibility: hidden;
+  }
+  .container h1 {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 50px;
+  }
+}
